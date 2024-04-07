@@ -1,3 +1,4 @@
+import RightSideNav from "../RightSide/RightSideNav";
 import Header from "./Header";
 import Navbar from "./Shared/Navbar";
 
@@ -21,7 +22,7 @@ const Home = () => {
 
 
           <div className="border">
-            <p>Right side nav</p>
+            <RightSideNav/>
           </div>
         </div>
       </div>
